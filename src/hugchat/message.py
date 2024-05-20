@@ -17,7 +17,7 @@ MSGSTATUS_REJECTED = 2
 class WebSearchSource:
     title: str
     link: str
-    hostname: str
+    # hostname: str
 
     def __str__(self):
         return json.dumps({
